@@ -1,0 +1,20 @@
+name: DeathMessages
+version: 0.0
+description: Death messages.
+api-version: 1.15
+load: STARTUP
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.DeathMessages.DeathMessagesPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+permissions:
+  deathmessages.exempt:
+    description: Exempts from showing your death messages
+    default: false
